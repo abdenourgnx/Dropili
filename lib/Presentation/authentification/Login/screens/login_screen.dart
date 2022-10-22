@@ -33,11 +33,12 @@ class _LoginScreenState extends State<LoginScreen> {
             listener: (context, state) async {
               if (state.status == Status.success) {
                 //await Future.delayed(Duration(seconds: 3));
-                Navigator.push(
+                Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(
                     builder: (BuildContext context) => BlocProvider(
-                      create: (_) => ProfileBloc( profileUseCase: ProfileUseCase() ),
+                      create: (_) =>
+                          ProfileBloc(profileUseCase: ProfileUseCase()),
                       child: ProfilePage(),
                     ),
                   ),

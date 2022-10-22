@@ -67,7 +67,7 @@ class _MyOffersPageState extends State<ProfilePage> {
                     child: Container(
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage("assets/background2.png"),
+                          image: AssetImage('assets/background2.png'),
                           alignment: Alignment.topCenter,
                         ),
                       ),
@@ -108,12 +108,15 @@ class _MyOffersPageState extends State<ProfilePage> {
                                 Align(
                                   alignment: Alignment(0.8, 0.95),
                                   child: GestureDetector(
-                                    onTap: (){
+                                    onTap: () {
                                       Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                          builder: (BuildContext context) => BlocProvider(
-                                            create: (_) => EditProfileBloc( editProfileUseCase: EditProfileUseCase() ),
+                                          builder: (BuildContext context) =>
+                                              BlocProvider(
+                                            create: (_) => EditProfileBloc(
+                                                editProfileUseCase:
+                                                    EditProfileUseCase()),
                                             child: EditProfilePage(),
                                           ),
                                         ),
@@ -124,8 +127,8 @@ class _MyOffersPageState extends State<ProfilePage> {
                                         'Editer mon profile',
                                         style: TextStyle(
                                             color: Colors.blue,
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 18),
+                                            fontWeight: FontWeight.w400,
+                                            fontSize: 16),
                                       ),
                                     ),
                                   ),

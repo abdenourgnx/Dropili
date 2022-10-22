@@ -12,16 +12,15 @@ class EditProfileButton extends StatelessWidget {
     return SizedBox(
       height: 45,
       width: MediaQuery.of(context).size.width * 0.4,
-
       child: Container(
         child: Center(child: child),
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.all(Radius.circular(20)),
-            border: Border.all(
-              color: MalinColors.AppBlue,
-              width: 1,
-            ),
+          border: Border.all(
+            color: MalinColors.AppBlue,
+            width: 0.5,
+          ),
           boxShadow: [
             BoxShadow(
               color: Colors.black,

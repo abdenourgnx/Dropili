@@ -193,7 +193,8 @@ class _MyOffersPageState extends State<EditProfilePage> {
                                     children: <Widget>[
                                       EditProfileButton(
                                         child: Row(
-                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
                                           children: <Widget>[
                                             Text(
                                               'Direct sur',
@@ -229,29 +230,29 @@ class _MyOffersPageState extends State<EditProfilePage> {
                                   ),
                                   SizedBox(height: 15),
                                   Grid(
-                                    start: 0,
-                                    size: 11,
+                                      start: 0,
+                                      size: 11,
                                       type: 'contactItems',
                                       title: 'Contacts',
                                       myList: IconsLists.allItems),
                                   SizedBox(height: 15),
                                   Grid(
-                                    start: 11,
-                                    size: 7,
+                                      start: 11,
+                                      size: 7,
                                       title: 'Reseaux sociaux',
                                       type: 'reseauxItems',
                                       myList: IconsLists.allItems),
                                   SizedBox(height: 15),
                                   Grid(
-                                    start: 18,
-                                    size: 5,
+                                      start: 18,
+                                      size: 5,
                                       title: 'Moyens de paiement',
                                       type: 'paimentsItems',
                                       myList: IconsLists.allItems),
                                   SizedBox(height: 15),
                                   Grid(
-                                    start: 23,
-                                    size: 2,
+                                      start: 23,
+                                      size: 2,
                                       title: 'Divers',
                                       type: 'diversItems',
                                       myList: IconsLists.allItems),
@@ -275,7 +276,7 @@ class _MyOffersPageState extends State<EditProfilePage> {
                           'Enregistrer mon profile',
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 30,
+                              fontSize: 25,
                               fontWeight: FontWeight.bold),
                         ),
                       ),
