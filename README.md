@@ -1,5 +1,5 @@
 # Dropili
-## Digital NFC business card cross-platform mobile application 
+## Digital NFC Business Card Cross-platform Mobile Application 
 
 Welcome to Dropili the Digital NFC Business Card  repository!
 
