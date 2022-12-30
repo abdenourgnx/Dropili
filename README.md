@@ -5,7 +5,10 @@ Welcome to Dropili the Digital NFC Business Card  repository!
 
 This is a cross-platform mobile application that allows users to create and share their digital business card using NFC technology. With this app, users can easily exchange contact information and connect with each other in a more efficient and environmentally friendly way.
 
-Features:
+## Development
+This app is built using [Flutter](https://flutter.dev/), a mobile app development framework created by Google. It allows for the development of natively compiled applications for mobile, web, and desktop from a single codebase.
+
+## Features:
 
 + Create a digital business card with all of your contact information
 + Share your business card using NFC technology
