@@ -13,5 +13,5 @@ Features:
 +View and edit your saved business cards
 +Send and receive digital business cards even without an internet connection
 
-###License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
