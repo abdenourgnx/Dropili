@@ -35,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+    
     _navigationBloc = getIt.getItInstace<NavigationBloc>();
     _profileBloc = getIt.getItInstace<ProfileBloc>();
     _authBloc = AuthBloc(getIt.getItInstace<AuthRepository>());
